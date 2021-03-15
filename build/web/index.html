@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>java02 - pagina principal</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Juros Simples</h1>
+        <h2 class="iden">Nome: Danilo Novaes Santana</h2>
+        <h3 class="iden">RA:1290481922012</h3>
+        <form action="JurosSimplesServlet">
+            <h4>Valor Presente: </h4><input class="bob" type="number" name="vp" min="0" value="0" step="any"/>
+            <h4>juros: </h4><input class="bob" type="number"  name="juros" min="0" value="0" step="any"/>
+            <h4>tempo: </h4><input class="bob" type="number" name="tempo" min="0" value="0" step="any"/>
+            <input ID="fr" type="submit" value="calcular juros"/>
+        </form>
+    </body>
+</html>
